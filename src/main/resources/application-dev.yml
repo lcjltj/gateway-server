@@ -1,0 +1,8 @@
+server:
+  port: 8088
+
+jasypt:
+  encryptor:
+    algorithm: PBEWithMD5AndDES
+    password: #VM Environment variable 값 설정
+
